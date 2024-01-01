@@ -6,7 +6,39 @@
 		<title>tru-met</title>
 		<link rel="stylesheet" href="/dist/main.css" />
 	</head>
-	<body class=>
-		<h1 class="text-5xl font-bold underline">Hello world!</h1>
+	<body>
+		<nav aria-label="Main navigation">
+			<div class="menu-container">
+				<!-- Logo -->
+				<div class="logo p-4">
+					<a href="/">
+						<img
+							src="src/img/logo.svg"
+							width="120px"
+							height="auto"
+							alt="Logo firmy" />
+					</a>
+				</div>
+
+				<!-- Menu -->
+				<ul class="menu-items">
+					<li>
+						<a href="#home" aria-label="Przejdź do strony głównej">Home</a>
+					</li>
+					<li>
+						<a href="#services" aria-label="Przejdź do usług">Services</a>
+					</li>
+					<li><a href="#about" aria-label="Przejdź do o nas">About</a></li>
+					<li>
+						<a href="#contact" aria-label="Przejdź do kontaktu">Contact</a>
+					</li>
+				</ul>
+
+				<!-- Button -->
+				<div class="menu-button">
+					<a href="#sign-in" class="button" aria-label="Sign In">Sign In</a>
+				</div>
+			</div>
+		</nav>
 	</body>
 </html>

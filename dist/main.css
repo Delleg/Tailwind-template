@@ -554,6 +554,10 @@ video {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
