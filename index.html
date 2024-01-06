@@ -4,41 +4,45 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>tru-met</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Source+Sans+3:wght@500;700&display=swap"
+			rel="stylesheet" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet" />
 		<link rel="stylesheet" href="/dist/main.css" />
 	</head>
-	<body>
-		<nav aria-label="Main navigation">
-			<div class="menu-container">
-				<!-- Logo -->
-				<div class="logo p-4">
-					<a href="/">
-						<img
-							src="src/img/logo.svg"
-							width="120px"
-							height="auto"
-							alt="Logo firmy" />
-					</a>
+	<body class="font-arimo text-3xl">
+		<div class="container" id="container">
+			<header
+				class="header flex items-center place-content-end bg-green-700 fixed top-0 left-0 w-full">
+				<div class="font-semibold mr-auto p-5 text-[26px] text-slate-50 logo">
+					<a href="#">TRU-MET</a>
 				</div>
-
-				<!-- Menu -->
-				<ul class="menu-items">
-					<li>
-						<a href="#home" aria-label="Przejdź do strony głównej">Home</a>
-					</li>
-					<li>
-						<a href="#services" aria-label="Przejdź do usług">Services</a>
-					</li>
-					<li><a href="#about" aria-label="Przejdź do o nas">About</a></li>
-					<li>
-						<a href="#contact" aria-label="Przejdź do kontaktu">Contact</a>
-					</li>
-				</ul>
-
-				<!-- Button -->
-				<div class="menu-button">
-					<a href="#sign-in" class="button" aria-label="Sign In">Sign In</a>
+				<nav class="navbar font-semibold p-5">
+					<a class="p-5" href="#" aria-label="Przejdź do strony głównej"
+						>Home</a
+					>
+					<a class="p-5" href="#services" aria-label="Przejdź do usług"
+						>Services</a
+					>
+					<a class="p-5" href="#projects" aria-label="Wybrane realizacje"
+						>Projects</a
+					>
+					<a class="p-5" href="#about" aria-label="Przejdź do o nas">About</a>
+					<a class="p-5" href="#park" aria-label="Park maszynowy"
+						>Machine park</a
+					>
+					<a class="p-5" href="#contact" aria-label="Przejdź do kontaktu"
+						>Contact</a
+					>
+				</nav>
+				<div class="p-5 toggle-icon">
+					<i class="bx bx-moon"></i>
 				</div>
-			</div>
-		</nav>
+			</header>
+		</div>
 	</body>
 </html>
