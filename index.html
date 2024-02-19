@@ -8,41 +8,89 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Source+Sans+3:wght@500;700&display=swap"
-			rel="stylesheet" />
+			rel="stylesheet"
+		/>
 		<link
 			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-			rel="stylesheet" />
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="/dist/main.css" />
 	</head>
-	<body class="font-arimo text-3xl">
-		<div class="container" id="container">
-			<header
-				class="header flex items-center place-content-end bg-green-700 fixed top-0 left-0 w-full">
-				<div class="font-semibold mr-auto p-5 text-[26px] text-slate-50 logo">
-					<a href="#">TRU-MET</a>
-				</div>
-				<nav class="navbar font-semibold p-5">
-					<a class="p-5" href="#" aria-label="Przejdź do strony głównej"
-						>Home</a
-					>
-					<a class="p-5" href="#services" aria-label="Przejdź do usług"
-						>Services</a
-					>
-					<a class="p-5" href="#projects" aria-label="Wybrane realizacje"
-						>Projects</a
-					>
-					<a class="p-5" href="#about" aria-label="Przejdź do o nas">About</a>
-					<a class="p-5" href="#park" aria-label="Park maszynowy"
-						>Machine park</a
-					>
-					<a class="p-5" href="#contact" aria-label="Przejdź do kontaktu"
-						>Contact</a
-					>
-				</nav>
-				<div class="p-5 toggle-icon">
-					<i class="bx bx-moon"></i>
-				</div>
-			</header>
+	<body>
+		<div class="relative h-screen container mx-auto">
+			<div class="absolute top-0 right-0 w-[557px] h-[568px] bg-Brand-4 -z-100">
+				<!-- Prostokąt 557 568-->
+				<!-- Treść wewnątrz prostokąta, jeśli potrzebna -->
+			</div>
+			<div class="pt-8 px-[155px]">
+				<section id="menu">
+					<nav class="mx-10">
+						<div class="flex">
+							<div class="mr-24 flex justify-center items-center">
+								<a href="#"
+									><img
+										src="/src/img/logo.png"
+										alt="Company logo"
+										height="70px"
+								/></a>
+							</div>
+							<div
+								class="flex pl-4 font-Source_Sans_3 text-xl font-bold font space-x-20 justify-around p-10 items-center"
+							>
+								<a href="#">Home</a>
+								<a href="#">About</a>
+								<a class="active:bg-Brand-1" href="#">Blog</a>
+								<a href="#">Shop</a>
+								<a href="#">Contact</a>
+							</div>
+							<!-- Begin search an Purchase now -->
+							<div class="flex ml-auto">
+								<div class="text-Grey-900 flex items-center justify-center">
+									<i class="bx bx-search bx-lg"></i>
+								</div>
+								<div
+									class="bg-Grey-900 text-slate-50 font-Source_Sans_3 text-xl font-semibold rounded-2xl flex items-center justify-center py-5 px-8 m-5"
+								>
+									<a href="#" class="button">Purchase Now</a>
+								</div>
+							</div>
+							<!-- End search an Purchase now -->
+						</div>
+					</nav>
+				</section>
+				<section id="hero">
+					<div id="carousel" class="">
+						<article>
+							<div class="flex">
+								<div
+									class="text-Grey-900 bg-Brand-1 font-Source_Sans_3 text-xl font-semibold rounded-2xl py-5 px-8 my-5"
+								>
+									<a href="#" class="button">Lifestyle</a>
+								</div>
+								<div>
+									<p><time datetime="2021-10-15">September 15, 2021</time></p>
+								</div>
+							</div>
+							<div>
+								<h2>30 Best Lifestyle Blogs to Follow in 2021</h2>
+								<p>
+									Tempus ultricies augue luctus et ut suscipit. Morbi arcu,
+									ultrices purus dolor erat bibendum sapien metus. Sit mi,
+									pharetra, morbi arcu id. Pellentesque dapibus nibh augue
+									senectus.
+								</p>
+								<img src="/src/img/Ellipse 1.png" alt="Autor Avatar" />
+								<p>6 min to read</p>
+								<div>
+									<img src="/src/img/figure.png" alt="Article image" />
+								</div>
+							</div>
+							<i class="bx bx-left-arrow-circle bx-lg"></i>
+							<i class="bx bx-right-arrow-circle bx-lg"></i>
+						</article>
+					</div>
+				</section>
+			</div>
 		</div>
 	</body>
 </html>
