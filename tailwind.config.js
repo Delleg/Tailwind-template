@@ -14,6 +14,9 @@ module.exports = {
 			},
 		},
 		extend: {
+			translate: {
+				150: '150%', // Dodaje niestandardową wartość przesunięcia
+			},
 			zIndex: {
 				100: '100',
 			},
@@ -35,7 +38,7 @@ module.exports = {
 		},
 
 		fontFamily: {
-			Source_Sans_3: ['Source Sans 3', 'sans-serif'],
+			SourceSansPro: ['SourceSansPro', 'sans-serif'],
 		},
 	},
 	plugins: [],

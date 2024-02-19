@@ -6,4 +6,26 @@ html {
 	font-size: 62.5%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600;700&display=swap');
+@font-face {
+	font-family: 'SourceSansPro';
+	src: url('./fonts/') format('woff2'),
+		url('/src/fonts/SourceSansPro-Regular.woff') format('woff');
+	font-weight: 400; /* Regular */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro';
+	src: url('/src/fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
+		url('/src/fonts/SourceSansPro-SemiBold.woff') format('woff');
+	font-weight: 600; /* SemiBold */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro';
+	src: url('/src/fonts/SourceSansPro-Bold.woff2') format('woff2'),
+		url('/src/fonts/SourceSansPro-Bold.woff') format('woff');
+	font-weight: 700; /* Bold */
+	font-style: normal;
+}
