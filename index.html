@@ -7,18 +7,16 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-		<link
-			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-			rel="stylesheet"
-		/>
+		<link rel="stylesheet" href="node_modules/boxicons/css/boxicons.min.css" />
+
 		<link rel="stylesheet" href="/dist/main.css" />
 	</head>
 	<body>
 		<div class="relative h-screen container mx-auto">
-			<div class="absolute top-0 right-0 w-[557px] h-[568px] bg-Brand-4 -z-100">
+			<div
+				class="absolute top-0 right-0 w-[557px] h-[568px] bg-Brand-4 -z-100"
+			></div>
 
-			</div>
-			
 			<header>
 				<a
 					class="absolute transform -translate-y-150 font-SourceSansPro text-2xl px-6 pb-2 pt-2.5 font-extrabold rounded-2xl bg-Brand-1 leading-normal text-Grey-900 transition duration-150 ease-in-out hover:bg-Brand-2 focus:bg-Brand-2 focus:outline-none focus:translate-y-150 focus:ring-0 active:bg-Grey-900 skip-to-content"
@@ -70,55 +68,71 @@
 							</div>
 						</nav>
 					</section>
-					</header>
+
 					<!-- Start Hero -->
 					<section id="main-content">
-						<div id="carousel" class="mx-14 mt-60">
+						<div id="carousel">
 							<!-- Start Article -->
 							<article>
-								<div class="flex place-items-baseline">
-									<div
-										class="text-Grey-900 bg-Brand-1 font-SourceSansPro text-xl font-extrabold rounded-2xl py-5 px-8 my-5"
-									>
-										<a href="#" class="button">Lifestyle</a>
-									</div>
-									<div class="font-SourceSansPro text-xl font-normal ml-8">
-										<p><time datetime="2021-10-15">September 15, 2021</time></p>
-									</div>
-								</div>
-								<div class="flex items-center justify-between">
-									<div>
-										<div class="font-SourceSansPro text-6xl font-extrabold">
+								<div class="relative flex">
+									<div class="flex m-12 gap-24 flex-col justify-around w-1/2">
+										<div class="flex place-items-baseline">
+											<div
+												class="text-Grey-900 bg-Brand-1 font-SourceSansPro text-xl font-extrabold rounded-2xl py-5 px-8 my-5"
+											>
+												<a href="#" class="button">Lifestyle</a>
+											</div>
+											<div class="font-SourceSansPro text-xl font-normal ml-8">
+												<p>
+													<time datetime="2021-10-15">September 15, 2021</time>
+												</p>
+											</div>
+										</div>
+										<div
+											class="font-SourceSansPro text-6xl leading-1 font-extrabold"
+										>
 											<h2>30 Best Lifestyle Blogs to Follow in 2021</h2>
 										</div>
-										<div class="font-SourceSansPro text-2xl font-extrabold">
-											<p>
+										<div class="font-SourceSansPro text-xl font-bold">
+											<p class="line-clamp-3">
 												Tempus ultricies augue luctus et ut suscipit. Morbi
 												arcu, ultrices purus dolor erat bibendum sapien metus.
 												Sit mi, pharetra, morbi arcu id. Pellentesque dapibus
 												nibh augue senectus.
 											</p>
 										</div>
-										<img src="/src/img/Ellipse 1.png" alt="Autor Avatar" />
-										<p>6 min to read</p>
+
+										<div>
+											<img src="/src/img/Ellipse 1.png" alt="Autor Avatar" />
+											<p>6 min to read</p>
+										</div>
 									</div>
-								</div>
-								<div class="flex justify-items-end mr-auto">
-									<div>
+
+									<div
+										class="flex m-12 rounded-2xl overflow-hidden flex-col w-1/2"
+									>
 										<img src="/src/img/figure.png" alt="Article image" />
 									</div>
+									<button
+										type="button"
+										class="flex flex-col items-center justify-center absolute -left-28 place-self-center"
+									>
+										<i class="bx bx-left-arrow-circle bx-lg"></i>
+									</button>
+									<button
+										type="button"
+										class="flex items-center flex-col justify-center absolute -right-28 place-self-center"
+									>
+										<i class="bx bx-right-arrow-circle bx-lg"></i>
+									</button>
 								</div>
-
-								<i class="bx bx-left-arrow-circle bx-lg"></i>
-								<i class="bx bx-right-arrow-circle bx-lg"></i>
 							</article>
 							<!-- End Article -->
 						</div>
 					</section>
 					<!-- End Hero -->
 				</div>
-			
-			<a class="skip-to-content" href="#main-content"> Skip to content </a>
+			</header>
 		</div>
 	</body>
 </html>

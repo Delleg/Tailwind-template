@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('../node_modules/boxicons/css/boxicons.min.css'); */
 
 html {
 	font-size: 62.5%;
@@ -8,7 +9,7 @@ html {
 
 @font-face {
 	font-family: 'SourceSansPro';
-	src: url('./fonts/') format('woff2'),
+	src: url('/src/fonts/SourceSansPro-Regular.woff2') format('woff2'),
 		url('/src/fonts/SourceSansPro-Regular.woff') format('woff');
 	font-weight: 400; /* Regular */
 	font-style: normal;
@@ -16,8 +17,8 @@ html {
 
 @font-face {
 	font-family: 'SourceSansPro';
-	src: url('/src/fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
-		url('/src/fonts/SourceSansPro-SemiBold.woff') format('woff');
+	src: url('/src/fonts/SourceSansPro-Semibold.woff2') format('woff2'),
+		url('/src/fonts/SourceSansPro-Semibold.woff') format('woff');
 	font-weight: 600; /* SemiBold */
 	font-style: normal;
 }
